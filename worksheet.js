@@ -58,11 +58,11 @@ for (const element of greeting){
 }
 
 // 2) While Loops
-const userInput = '';
-const isInstructorAwesome = 'yes';
-while (userInput !== isInstructorAwesome){
-  userInput == prompt('Do you think the instructor is awesome? ');
-  if (userInput === isInstructorAwesome){
+let userInput = '';
+let isInstructorAwesome = 'yes';
+while (userInput != isInstructorAwesome){
+  userInput = prompt('Do you think the instructor is awesome? ');
+  if (userInput = isInstructorAwesome){
     console.log(`I have been learning a lot from the instructor.`)
   } else {
     console.log(`I need a new instructor. `)
